@@ -14,31 +14,31 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <!--Linking to stylesheet-->
-    <link rel="stylesheet" href="./styles/mainstyles.css">
-    <link rel="stylesheet" href="./styles/mobilestyles.css">
+    <link rel="stylesheet" href="/styles/mainstyles.css">
+    <link rel="stylesheet" href="/styles/mobilestyles.css">
 
     <!--Linking to JS-->
-    <script type="text/javascript" src="./script/mainscript.js"></script>
+    <script type="text/javascript" src="/script/mainscript.js" defer></script>
 
-    <link rel="icon" href="./images/Logo big C square.png">
+    <link rel="icon" href="/images/Logo big C square.png">
     <title>Competra | Home</title>
 </head>
 <body>
     <div class="page">
         <nav class="desktop-header">
-            <img src="./images/Logo Full.png" alt="" class="logo">
+            <img src="/images/Logo Full.png" alt="" class="logo">
             <ul class="navigation">
-                <li>Home</li>
-                <li>Games</li>
-                <li>About</li>
-                <li>FAQs</li>
-                <li>Store</li>
+                <li id="home-nav"><a href="/index.html">Home</a></li>
+                <li id="games-nav"><a href="/pages/games.html">Games</a></li>
+                <li id="about-nav"><a href="/pages/about.html">About</a></li>
+                <li id="faqs-nav"><a href="/pages/faqs.html">FAQs</a></li>
+                <li id="store-nav"><a href="/pages/store/store.html">Store</a></li>
             </ul>
             <div class="icon-container">
-                <span class="material-symbols-outlined">shopping_basket</span>
+                <span class="material-symbols-outlined" id="basket-icon">shopping_basket</span>
             </div>
             <div class="icon-container">
-                <span class="material-symbols-outlined">account_circle</span>
+                <span class="material-symbols-outlined" id="profile-icon">account_circle</span>
             </div>
         </nav>
         <nav class="mobile-header">
@@ -49,27 +49,34 @@
                 <div class="bar bar3"></div>
             </span>
             <ul class="navigation">
-                <li>Home</li>
-                <li>Games</li>
-                <li>About</li>
-                <li>FAQs</li>
-                <li>Store</li>
+                <li id="home-nav"><a href="/index.html">Home</a></li>
+                <li id="games-nav"><a href="/pages/games.html">Games</a></li>
+                <li id="about-nav"><a href="/pages/about.html">About</a></li>
+                <li id="faqs-nav"><a href="/pages/faqs.html">FAQs</a></li>
+                <li id="store-nav"><a href="/pages/store/store.html">Store</a></li>
             </ul>
             <div class="icon-container">
-                <span class="material-symbols-outlined">shopping_basket</span>
+                <span class="material-symbols-outlined" id="basket-icon">shopping_basket</span>
             </div>
             <div class="icon-container">
-                <span class="material-symbols-outlined">account_circle</span>
+                <span class="material-symbols-outlined" id="profile-icon">account_circle</span>
             </div>
         </nav>
         <div class="title">
             <div>
                 <h1 class="title-font">WELCOME TO COMPETRA</h1>
-                <p class="slogan">The heart of the game</p>
+                <p class="slogan subheading">The heart of the game</p>
             </div>
-            <img src="./Photos/Gaming_setup1.webp" alt="" class="title-photo">
+            <img src="/Photos/Gaming_setup1.webp" alt="" class="title-photo">
         </div>
-
+        <div class="container7030 darken-bg whats-new">
+            <img src="/Photos/Gaming_setup3.webp" alt="" class="whats-new-photo">
+            <div class="container7030-text">
+                <h2>What's new</h2>
+                <p>These are the latest updates from us!</p>
+                <button class="ctabutton">Click here</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -73,7 +73,7 @@
     }
     p {
         color: white;
-        font-family: "Esteban", sans-serif;
+        font-family: "Montserrat", sans-serif;
     }
     .slogan {
         width: 100%;
@@ -89,5 +89,15 @@
         color: white;
         margin: .5em 0em;
 
+    }
+    .section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section p {
+        text-align: center;
+        width: 80%;
     }
 }
