@@ -1,9 +1,48 @@
+@media screen and (min-width: 1000px) {
+
 body {
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
+.page {
+    background-color: #2d2822;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+}
+.desktop-header {
+    display: grid;
+    grid-template-columns: 50% 40% 5% 5%;
+}
+.mobile-header {
+    display: none;
+}
+ul {
+    display: flex;
+}
+ul > * {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: .5em;
+    margin: .3em;
+}
+.logo {
+    width: 25%;
+    min-width: 10em;
+}
+
 
 h1 {
     font-family: "Gugi", cursive;
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: white;
+    margin-top: 1em;
+}
+
 }
