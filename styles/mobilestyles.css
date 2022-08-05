@@ -2,6 +2,8 @@
    
     body {
         overflow: hidden;
+        height: 100vh;
+        width: 100vw;
         margin: 0;
         padding: 0;
     }
@@ -55,23 +57,37 @@
     
     .title {
         background-color: #0000002b;
+        padding: 0.5em 0em;
+    }
+    .title-photo {
+        width: 100%;
     }
     h1 {
-        font-family: "Gugi", cursive;
+        font-family: "Montserrat", sans-serif;
         color: white;
+        margin: .5em 0em;
+    }
+    .title-font {
         width: 100%;
         text-align: center;
-        margin: .5em 0em;
-        padding: .5em 0em;
+    }
+    p {
+        color: white;
+        font-family: "Esteban", sans-serif;
+    }
+    .slogan {
+        width: 100%;
+        text-align: center;
     }
     .icon-container {
         width: 100%;
         display: flex;
         justify-content: center;
+        border-top: 2px solid rgb(194, 194, 194);
     }
     .material-symbols-outlined {
         color: white;
-        margin-top: 1em;
+        margin: .5em 0em;
 
     }
 }

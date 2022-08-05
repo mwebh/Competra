@@ -34,15 +34,63 @@ ul > * {
     min-width: 10em;
 }
 
-
+.title {
+    display: grid;
+    grid-template-columns: 39% 59%;
+    background-color: #0000002b;
+    padding: 0.5em 0em;
+    gap: 2%;
+}
+.title-photo {
+    width: 95%;
+}
 h1 {
-    font-family: "Gugi", cursive;
+    font-family: "Montserrat", cursive;
     color: white;
+    font-size: 4em;
+}
+.title-font {
+    width: 100%;
+    text-align: right;
+}
+p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+.slogan {
+    width: 100%;
+    text-align: right;
 }
 
+.icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+}
 .material-symbols-outlined {
     color: white;
-    margin-top: 1em;
+
+}
+
+.games-title {
+    text-align: right;
+}
+.games-title-text {
+    text-align: right;
+}
+
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section p {
+    text-align: center;
+    width: 80%;
 }
 
 }
