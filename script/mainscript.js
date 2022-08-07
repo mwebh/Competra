@@ -7,8 +7,6 @@ const storeNav = document.getElementById("store-nav");
 //Storing navigation buttons in an array
 const navigation = [homeNav, gamesNav, aboutNav, faqsNav, storeNav];
 
-const menuButton = document.getElementsByClassName("menu-icon");
-
 const profileButton = document.getElementById("profile-icon");
 const basketButton = document.getElementById("basket-icon");
 /*
@@ -28,3 +26,22 @@ storeNav.addEventListener('click', () => {
     window.location.href = "/pages/store.html"
 })
 */
+/*
+let gameHeading = [document.getElementById("game1-heading"), document.getElementById("game2-heading"), document.getElementById("game3-heading")];
+let gameDesc = [document.getElementById("game1-desc"), document.getElementById("game2-desc"), document.getElementById("game3-desc")];
+let gameImage = [document.getElementById("game1-image"), document.getElementById("game2-image"), document.getElementById("game3-image")];
+
+function gameHeader () {
+    gameHeading[0].innerHTML = "Titanforce";
+    gameHeading[1].innerHTML = "Rocket League";
+    gameHeading[2].innerHTML = "Clash of clans";
+}
+
+gameHeader();
+*/
+const menuButton = document.querySelector(".menu-icon");
+
+menuButton.addEventListener('click', () => {
+    const mobileNavigation = document.querySelector(".mobile-navigation");
+    mobileNavigation.classList.toggle("active");
+})

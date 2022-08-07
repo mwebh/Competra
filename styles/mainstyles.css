@@ -9,6 +9,16 @@
         width: 100vw;
         overflow-y: auto;
     }
+    .desktop-header {
+        position: sticky;
+        top: 0px;
+        background-color: #2d2822;
+    }
+    .mobile-header {
+        position: sticky;
+        top: 0px;
+        background-color: #2d2822;
+    }
 
     li > a {
         text-decoration: none;
@@ -116,4 +126,28 @@
         color: white;
         margin: 1em;
         font-family: "Montserrat", sans-serif;
+    }
+
+    .gaming-articles {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 1em 0em;
+    }
+    .game {
+        width: 30%;
+        min-width: 350px;
+        max-width: 500px;
+        background-color: #0000004f;
+        margin: .5em 0em;
+        border: 3px #0000004f solid;
+    }
+    .game > * {
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    h3 {
+        font-family: "Montserrat",sans-serif;
     }
